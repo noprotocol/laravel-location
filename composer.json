@@ -1,0 +1,13 @@
+{
+    "name": "noprotocol/laravel-location",
+    "description": "A location reverser for Laravel with Google API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthijs Openneer",
+            "email": "matthijs@noprotocol.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
