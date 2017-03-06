@@ -1,12 +1,12 @@
 <?php
 
-namespace Thorazine\Hack;
+namespace Noprotocol\LaravelLocation;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Http\Kernel;
 
-class HackServiceProvider extends ServiceProvider
+class LocationServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

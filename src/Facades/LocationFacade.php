@@ -1,11 +1,14 @@
 <?php
 
-namespace Thorazine\Hack\Classes\Facades;
+namespace Noprotocol\LaravelLocation\Facades;
 
 use Log;
 
-class Builder {
+class Location {
 
+	public function get()
+	{
+		return 'test';
+	}
 
-	
 }

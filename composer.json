@@ -8,6 +8,11 @@
             "email": "matthijs@noprotocol.nl"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Noprotocol\\LaravelLocation\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
