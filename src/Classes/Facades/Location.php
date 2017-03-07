@@ -78,13 +78,13 @@ class Location
 	 * @param string/integer
 	 * @return $this 
 	 */
-	public function postalcodeToCoordinates($postalCode, $number = '')
+	public function postalcodeToCoordinates($postalData)
 	{
 		$this->reset();
 
-		$this->returnLocationData = array_merge($this->returnLocationData, ['postal_code' => $postalCode, 'street_number' => $number]);
+		$this->returnLocationData = array_merge($this->returnLocationData, ['postal_code' => $postalData['postal_code'], 'street_number' => @$postalData['street_number']]);
 
-		$this->urlAddPostcode($postalCode);
+		$this->urlAddPostcode(str_replace(' ', '', $postalData['postal_code']));
 
 		$this->updateResponseWithResults($this->gateway());
 
