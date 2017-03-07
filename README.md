@@ -1,10 +1,14 @@
-# Location reverse script through Facade
-Get an address from a postal code or latitude/longitude. Or reverse it and get a latitude/longitude from an address or postal code.
+# Laravel Location
+Get a complete location set from coordinates, address, postal code or IP. Through the Location Facade you can 
+request the Google and IpInfo API to return the address of a visitor on your website.
+This script works out of the box, no need for any keys or registrations. Works out of the box.
 
-Please note that the data is not always right seeing we rely on the Google API. 
-It is even almost always wrong when you try to resolve an IP address. 
-So please use it as indication and not as fact. 
-That being said, there is no other script that comes closer to the correct location as far as I can tell.
+
+## What you should keep in mind
+
+This script uses the Google an IpInfo API to request information. Especially with the Ip API there is
+margin for error. The Google API is quite accurate and does most of the heavy lifting. However, please
+don't use this data as fact but rather as indication.
 
 
 ### PHP requirements:
@@ -20,7 +24,6 @@ Guzzle continously changes it's workings. I haven't found the time yet.
 
 
 ## How to make it work
-
 Run:
 ```
 composer require noprotocol/laravel-location
