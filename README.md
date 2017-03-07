@@ -50,7 +50,7 @@ $location = Location::locale('nl')->coordinatesToAddress(['latitude' => 52.38528
 
 $location = Location::locale('nl')->addressToCoordinates(['country' => 'Nederland', 'street' => 'Nieuwe Teertuinen', 'street_number' => 25])->get();
 
-$location = Location::locale('nl')->postalcodeToCoordinates('1072 BT', '44')->coordinatesToAddress()->get();
+$location = Location::locale('nl')->postalcodeToCoordinates('1013 LV', '25')->coordinatesToAddress()->get();
 
 $location = Location::locale('nl')->ipToCoordinates()->coordinatesToAddress()->get(); // if IP resolves properly, which it mostly doesn't
 ```
@@ -58,14 +58,14 @@ $location = Location::locale('nl')->ipToCoordinates()->coordinatesToAddress()->g
 
 Will all result in:
 ```
-$location['latitude'] = 52.3565722,
-$location['longitude'] = 4.888663;
+$location['latitude'] = 52.385288,
+$location['longitude'] = 4.885361;
 $location['country'] = 'Nederland';
 $location['region'] = 'Noord-Holland';
 $location['city'] = 'Amsterdam';
-$location['street'] = 'Frans Halsstraat';
-$location['street_number'] = '44';
-$location['postal_code'] = '1072 BT';
+$location['street'] = 'Nieuwe Teertuinen';
+$location['street_number'] = '25';
+$location['postal_code'] = '1013 LV';
 ```
 
 To return it as object set the ```get()``` function to true: ```get(true)```
