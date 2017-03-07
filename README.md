@@ -21,6 +21,11 @@ Guzzle continously changes it's workings. I haven't found the time yet.
 
 ## How to make it work
 
+Run:
+```
+composer require noprotocol/laravel-location
+```
+
 Add to app/config => providers
 ```
 Noprotocol\LaravelLocation\LocationServiceProvider::class,
