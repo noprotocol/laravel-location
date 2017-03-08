@@ -1,7 +1,7 @@
 # Laravel Location
 Get a complete location set from coordinates, address, postal code or IP. Through the Location Facade you can 
 request the Google and IpInfo API to return the address of a visitor on your website.
-This script works out of the box, no need for any keys or registrations. Works out of the box.
+This script works out of the box, no need for any keys or registrations.
 
 
 ## What you should keep in mind
