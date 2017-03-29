@@ -13,6 +13,5 @@
             "Noprotocol\\LaravelLocation\\": "src/"
         }
     },
-    "minimum-stability": "dev",
     "require": {}
 }
