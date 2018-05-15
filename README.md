@@ -1,3 +1,6 @@
+THIS REPO HAS BEEN MOVED WITH UPGRADES FOR 5.5 TO https://github.com/Thorazine/location
+Thanks :)
+
 # Laravel Location
 Get a complete location set from coordinates, address, postal code or IP. Through the Location Facade you can 
 request the Google and IpInfo API to return the address of a visitor on your website.
